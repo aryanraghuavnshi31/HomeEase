@@ -112,6 +112,7 @@ API keys (Google Maps, Firebase, etc.)
 1. Clone the Repository
 
 git clone https://github.com/your-username/homeease.git
+
 cd homeease
 
 2. Setup Backend
@@ -119,7 +120,9 @@ cd homeease
 cd server
 npm install
 cp .env.example .env
+
 # Fill in database and API keys
+
 npm run dev
 
 3. Setup Frontend
@@ -127,6 +130,7 @@ npm run dev
 cd client
 npm install
 npm run dev
+
 ---
 🌱 Future Improvements
 --
